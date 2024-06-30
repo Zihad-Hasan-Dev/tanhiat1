@@ -1,0 +1,62 @@
+@import "../../app.scss";
+
+.navbar1 {
+  height: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  .wrapper1 {
+    max-width: 1366px;
+    padding-top: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+    flex-direction: column;
+    border-top: 2px solid white;
+
+    @include mobile {
+      padding-top: 10px;
+      flex-direction: column;
+    }
+
+    span {
+      font-weight: bold;
+
+      @include mobile {
+        
+        display: flex;
+      }
+    }
+
+    .social1 {
+      display: flex;
+      gap: 20px;
+
+      img {
+        width: 18px;
+        height: 18px;
+        @include mobile {
+          width: 15px;
+          height: 15px;
+        }
+      }
+    }
+    .copyright{
+        padding-top: 10px;
+       
+        height: 50px;
+
+        @include mobile{
+          position: absolute;
+          display: flex;
+         white-space: nowrap;
+         font-size: 12px;
+         padding: 30px;
+ 
+        }
+    }
+  }
+}

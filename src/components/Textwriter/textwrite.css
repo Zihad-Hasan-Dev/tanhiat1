@@ -1,0 +1,15 @@
+@font-face{
+    font-family: KaushanScript;
+    src: url(../../../public/fonts/KaushanScript-Regular.ttf) format('truetype');
+    
+  }
+
+.typing{
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    font-weight: 700;
+    white-space: nowrap;
+    z-index: 999;
+    font-family: KaushanScript, cursive;
+
+}

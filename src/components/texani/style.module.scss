@@ -1,0 +1,43 @@
+@font-face{
+  font-family: KaushanScript;
+  src: url(../../../public/fonts/KaushanScript-Regular.ttf) format('truetype');
+  
+}
+
+
+.paragraph{
+  display: flex;
+  font-size: 45px;
+  justify-content: center;
+  padding-top: 40px;
+  line-height: 50px;
+  padding-bottom: 20px;
+  max-width: 1280px;
+  font-weight: 500;
+color: #ffffff;
+  flex-wrap: wrap;
+
+  span{
+    font-family: KaushanScript;
+
+
+  }
+
+  
+
+  .word{
+    position: relative;
+    margin-right: 12px;
+    margin-top: 12px;
+
+    .shadow{
+      position: absolute;
+      opacity: 60%;
+      color: rgb(43, 35, 29);
+      font-family: KaushanScript;
+
+
+    }
+  }
+  
+}
