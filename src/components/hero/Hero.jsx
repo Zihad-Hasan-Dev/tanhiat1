@@ -129,7 +129,7 @@ const Hero = () => {
             animate={{ y: -30 }}
             transition={{ duration: 2, repeat: Infinity, repeatType: "reverse" }}
           >
-            <img src="https://i.ibb.co/SVsGG7S/true.png" alt="true" border="0"/>
+            <img src="/true.png" alt="true" border="0"/>
               
                     </motion.div>
         </div>

@@ -6,6 +6,17 @@ import RoundedButton from "../../common/RoundedButton";
 import Magnetic from "../../common/Magnetic";
 
 const items = [
+
+  {
+    id: 42,
+    title: "CobrazCase",
+    img: "https://i.ibb.co/3TzPkWv/nextcase.png",
+    desc: "This is an E-commerce Website about phone cases. where you can order phone case and customize as your wish. different features haves different prices. where owner have admin dashboard to control everything. this is my best work !!!",
+    link: "https://cobrazcase.vercel.app/",
+    link2: "https://github.com/Zihad-hasan-maruf/cobrazcase",
+
+  },
+
   {
     id: 1,
     title: "brainwave",
@@ -13,6 +24,17 @@ const items = [
     desc: "A website about ai and modern tech. it is a prototype a demo with aesthetics UI AND UX design [PLEASE WAIT A MIN TO LOAD UP SINCE IT IS A FREE HOSTING SERVER IT MAY TAKE SOME TIMES] ",
     link: "https://brainwave133.netlify.app/",
   },
+
+  {
+    id: 4232,
+    title: "WorkFlow WEB",
+    img: "https://i.ibb.co/xL7RC2s/websafi.webp",
+    desc: "this website about workflow where you can maintain your work in a amazing manner with high-end design and dark themed you can plan your work here!",
+    link: "https://adorable-babka-70fdc0.netlify.app/",
+    link2: "https://github.com/Zihad-hasan-maruf/SAAS-Automation",
+
+  },
+
 
   {
     id: 9,

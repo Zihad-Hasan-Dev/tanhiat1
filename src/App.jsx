@@ -9,11 +9,11 @@ import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 import { AnimatePresence, useScroll } from "framer-motion";
-import { motion, useTransform } from "framer-motion";
 import CursorTrail from "./components/cursor/CursorTrail";
 import Picslid from "./components/SlidingImages";
 import Earthglove from "./earthapp/page";
 import Prelodeho from "./components/Preloader";
+import Comataa from "./certi/page";
 
 
 
@@ -35,6 +35,7 @@ const App = () => {
       }
     )()
   }, [])
+
 
 
 
@@ -60,29 +61,25 @@ const App = () => {
 
   <Earthglove/>
 
- 
 
 
 
     <section >
-      
        <Services />
-
     </section>
 
 
-     
-      <Picslid/>
 
-    
-
+<main className="coma">
+   <Comataa/>
+</main>
    
+
+
 
       <section id="Portfolio">
         <Parallax type="portfolio" />
       </section>
-
- 
 
       <Portfolio />
 

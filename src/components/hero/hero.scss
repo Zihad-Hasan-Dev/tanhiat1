@@ -155,9 +155,8 @@
 
       .imageContainer {
         position: absolute;
-        top: 0px;
-        right: 400px;
-        border-radius: 50%;
+        top: 10px;
+        right: -32%;
         z-index: 9999;
 
         @include mobile {
