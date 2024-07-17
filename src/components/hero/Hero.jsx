@@ -68,22 +68,15 @@ const Hero = () => {
             <Typewriter phrases={["Web Developer", "Frontend Developer", "UI/UX Designer"]} period={2000} />
           </motion.div>
 
-          <motion.div
-            variants={textVariants}
-            initial={{ x: -500, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.6 }}
+          <div
             className="buttons"
           >
-            <motion.a className="button1" variants={textVariants} href="#Portfolio">
-              See the Latest Works
-            </motion.a>
+            <a className="button1" variants={textVariants} href="#Portfolio">
+              Latest Works
+            </a>
 
-            <motion.a  className="button2" variants={textVariants}  href="#Contact">
-              Contact
-            </motion.a>
 
-          </motion.div>
+          </div>
 
           <motion.img
             variants={textVariants}

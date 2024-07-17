@@ -3,17 +3,16 @@ import { useEffect, useRef, useState } from "react";
 import "./app.scss";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
-import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 import { AnimatePresence, useScroll } from "framer-motion";
 import CursorTrail from "./components/cursor/CursorTrail";
-import Picslid from "./components/SlidingImages";
 import Earthglove from "./earthapp/page";
 import Prelodeho from "./components/Preloader";
 import Comataa from "./certi/page";
+import Hero from "./components/hero/Hero";
 
 
 
@@ -51,7 +50,7 @@ const App = () => {
 
       <section id="Homepage" >
         <Navbar/>
-        <Hero />
+        <Hero/>
       </section>
 
       <section id="Services">

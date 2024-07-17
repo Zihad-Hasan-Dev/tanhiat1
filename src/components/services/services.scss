@@ -28,6 +28,14 @@ main{
  z-index: 999;
  font-weight: 400;
  font-style: normal;
+
+ @include bigscreen{
+  span{
+    font-size: 70px;
+
+  }
+
+ }
  
  @include mobile{
   width: 100%;
@@ -39,9 +47,16 @@ main{
 
  }
 
+
+
  
  p{
   width: 1000px;
+
+  @include bigscreen{
+    width: 1300px;
+    line-height: 75px;
+  }
   
  }
 }
@@ -63,6 +78,11 @@ main{
     font-family:KaushanScript, cursive;
 
     font-weight: 700;
+    @include bigscreen{
+      font-size: 70px;
+      width: 1300px;
+      line-height: 100px;
+    }
   }
 }
 

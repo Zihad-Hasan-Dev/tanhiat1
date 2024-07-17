@@ -6,6 +6,7 @@
   
 }
 
+
 .hero {
   height: calc(100vh - 100px);
   overflow: hidden;
@@ -15,7 +16,8 @@
   padding-top: 100PX;
   padding-bottom: 100PX;
   background: #111132;
-  
+
+ 
 
   .wrapper {
     max-width: 1366px;
@@ -36,11 +38,33 @@
       .hack {
         position: absolute;
         top: 110px;
+         
+  @include bigscreen {
+    h1{
+      font-size: 90px;
+display: flex;
+transform: translateY(60px);
+}
+    
+  }
       }
 
       .write {
         height: 100vh;
         width: 100%;
+        span{
+          color: rgb(0, 0, 0);
+          transform: translateY(25px);
+          display: flex;
+          z-index: 999999999999999;
+           
+  @include bigscreen {
+    color: white;
+
+   font-size: 90px; 
+   transform: translateY(50px);
+  }
+        }
 
         @include mobile {
           display: none;
@@ -76,6 +100,8 @@
         position: absolute;
         top: 380px;
 
+        
+
         @include mobile {
           display: none;
         }
@@ -85,7 +111,6 @@
           border: 1px solid rgb(0, 0, 0);
           border-radius: 10px;
           color: rgb(255, 255, 255);
-          margin-right: 20px;
           background-color: #111132;
           cursor: pointer;
           font-weight: 300;
@@ -93,17 +118,29 @@
           font-size: 20px;
           font-weight: 600;
 
+          @include bigscreen {
+            display: flex;
+            transform: translateY(70px);
+            cursor: pointer;
+           }
+
           
         }
 
         .button1:hover{
           scale: 1.5;
-          color: aqua;
+
+          @include bigscreen {
+           scale: 1.2;
+           }
           
         }
         .button2{
           cursor: pointer;
           color: aqua;
+          @include bigscreen {
+            display: none;
+           }
          
         }
 
@@ -171,6 +208,15 @@
           height: 490px;
           z-index: 9999;
           border-radius: 50%;
+          @include bigscreen {
+            display: flex;
+            transform: translateY(250px);
+            transform: translateX(-30px);
+            width: 750px;
+            height: 750px;
+
+
+           }
         }
       }
     }

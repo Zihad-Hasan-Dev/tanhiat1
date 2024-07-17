@@ -13,7 +13,7 @@ const items = [
     img: "https://i.ibb.co/3TzPkWv/nextcase.png",
     desc: "This is an E-commerce Website about phone cases. where you can order phone case and customize as your wish. different features haves different prices. where owner have admin dashboard to control everything. this is my best work !!!",
     link: "https://cobrazcase.vercel.app/",
-    link2: "https://github.com/Zihad-hasan-maruf/cobrazcase",
+    link2: "https://github.com/Zihad-Hasan-Dev/cobrazcase",
 
   },
 
