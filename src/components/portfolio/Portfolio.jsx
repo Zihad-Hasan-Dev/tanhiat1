@@ -17,13 +17,38 @@ const items = [
 
   },
 
+  
+  {
+    id: 1231,
+    title: "ZShop",
+    img: "https://i.ibb.co/0ZRbB70/test2.png",
+    desc: "This is an E-commerce Website Where many items are available for sale. Many categories to choose from. Where you have to be login in order to buy. also with aesthetics UI AND UX design using next js and tailwind css",
+    link: "https://zihadecom.vercel.app/",
+    link2: "https://github.com/Zihad-Hasan-Dev/e-com",
+
+  },
+
+
   {
     id: 1,
-    title: "brainwave",
+    title: "brainwave (ONLY Design)",
     img: "https://i.ibb.co/ykM65Nv/id1.png",
     desc: "A website about ai and modern tech. it is a prototype a demo with aesthetics UI AND UX design [PLEASE WAIT A MIN TO LOAD UP SINCE IT IS A FREE HOSTING SERVER IT MAY TAKE SOME TIMES] ",
-    link: "https://brainwave133.netlify.app/",
+    link: "https://brainwow.vercel.app/",
+    link2: "https://github.com/Zihad-Hasan-Dev/brainwow",
   },
+
+
+  {
+    id: 5,
+    title: "Portfolio", 
+    img: "https://i.ibb.co/bP4h5zQ/miamoto.png",
+    desc: "it is my old portfolio which i created a while ago. make sure to visit it[PLEASE WAIT A MIN TO LOAD UP SINCE IT IS A FREE HOSTING SERVER IT MAY TAKE SOME TIMES] ",
+    link: "https://zihadhasanportfolio.netlify.app/",
+    link2: "https://github.com/Zihad-Hasan-Dev",
+
+  },
+  
 
   {
     id: 4232,
@@ -57,40 +82,28 @@ const items = [
   },
 
   {
-    id: 5,
-    title: "Portfolio", 
-    img: "https://i.ibb.co/bP4h5zQ/miamoto.png",
-    desc: "it is my old portfolio which i created a while ago. make sure to visit it[PLEASE WAIT A MIN TO LOAD UP SINCE IT IS A FREE HOSTING SERVER IT MAY TAKE SOME TIMES] ",
-    link: "https://zihadhasanportfolio.netlify.app/",
+    id: 4,
+    title: "metaverse (ONLY Design)",
+    img: "https://i.ibb.co/JQ97N35/id3.png",
+    desc: "This is an Awesome Website about metaverse and VR make sure to check it out. it is a prototype a demo with aesthetics UI AND UX design [PLEASE WAIT A MIN TO LOAD UP SINCE IT IS A FREE HOSTING SERVER IT MAY TAKE SOME TIMES] ",
+    link: "https://metawow.vercel.app/",
+    link2: "https://github.com/Zihad-Hasan-Dev/metawow",
+
 
   },
-  
+
   {
     id: 3,
-    title: "parrallax EFFECT",
+    title: "parrallax EFFECT (ONLY Design)",
     img: "https://i.ibb.co/RTdV6zs/id2.png",
     desc: "This is an Awesome parallax effect make sure to check it out. it is a prototype a demo with aesthetics UI AND UX design [PLEASE WAIT A MIN TO LOAD UP SINCE IT IS A FREE HOSTING SERVER IT MAY TAKE SOME TIMES] ",
     link: "https://parrallax13.netlify.app/",
+    link2: "https://github.com/Zihad-Hasan-Dev",
 
-  },
-  {
-    id: 4,
-    title: "metaverse",
-    img: "https://i.ibb.co/JQ97N35/id3.png",
-    desc: "This is an Awesome Website about metaverse and VR make sure to check it out. it is a prototype a demo with aesthetics UI AND UX design [PLEASE WAIT A MIN TO LOAD UP SINCE IT IS A FREE HOSTING SERVER IT MAY TAKE SOME TIMES] ",
-    link: "https://metaverse13.netlify.app/",
 
   },
 
 
-
-
-  {
-    id: 8,
-    title: "COMING SOON",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-  },
 ];
 
 const Single = ({ item }) => {
