@@ -44,7 +44,7 @@ const items = [
     title: "Portfolio", 
     img: "https://i.ibb.co/bP4h5zQ/miamoto.png",
     desc: "it is my old portfolio which i created a while ago. make sure to visit it[PLEASE WAIT A MIN TO LOAD UP SINCE IT IS A FREE HOSTING SERVER IT MAY TAKE SOME TIMES] ",
-    link: "https://zihadhasanportfolio.netlify.app/",
+    link: "https://zihadhasandeveloper.vercel.app/",
     link2: "https://github.com/Zihad-Hasan-Dev",
 
   },
