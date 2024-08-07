@@ -17,6 +17,45 @@ const items = [
 
   },
 
+  {
+    id: 11,
+    title: "hotelzmanaze",
+    img: "https://i.ibb.co/WfrK2Q4/hotela.png",
+    desc: "Welcome to HotelzManage, your ultimate solution for seamless hotel management and booking. Whether you are a hotel owner seeking to streamline operations or a traveler looking for the perfect stay, HotelzManage has everything you need. Our platform offers comprehensive tools for managing reservations, guest services, and property maintenance",
+    link: "https://hotelzmanaze.vercel.app/",
+    link2: "https://github.com/maruf449/HotelZmanaZe",
+
+  },
+
+  {
+    id: 22,
+    title: "CarZ Codder",
+    img: "https://i.ibb.co/Rc85KJN/carz.png",
+    desc: "Welcome to CarZ Codder, your ultimate destination for a seamless car rental experience. Whether you are planning a family vacation, a business trip, or simply need a reliable vehicle for a short-term need, we've got you covered. Our website offers an extensive selection of vehicles, ranging from economical compact cars to luxurious sedans, spacious SUVs, and versatile vans.",
+    link: "https://carzcodder.vercel.app/",
+    link2: "https://github.com/maruf449/CarZ-rental",
+
+  },
+
+  {
+    id: 33,
+    title: "academyzudemu",
+    img: "https://i.ibb.co/4SmVstp/aca.png",
+    desc: "Welcome to academyzudemu, your premier platform for online learning and skill development.[You can create courses and people can buy your courses just like udemy.] You can also manage your courses and students!!",
+    link: "https://academyzudemu.vercel.app/",
+    link2: "https://github.com/maruf449/Academyz",
+
+  },
+
+  {
+    id: 44,
+    title: "ZihadsBlog",
+    img: "https://i.ibb.co/fNRZbNb/mannns.png",
+    desc: "Welcome to Zihad's Blogs, a modern and aesthetically pleasing platform where I Write blogs and people can like, comments.usually i post about my daily life and web development. [IT WILL TAKE SOME TIME TO LOAD UP SINCE ITS A FREE DOMAIN SO PLS WAIT] ",
+    link: "https://zihadsblog.onrender.com/",
+    link2: "https://github.com/maruf449/ZihAD-S-BLOG",
+
+  },
   
   {
     id: 1231,
@@ -27,6 +66,16 @@ const items = [
     link2: "https://github.com/Zihad-Hasan-Dev/e-com",
 
   },
+
+  {
+    id: 1,
+    title: "archiztectureZ(ONLY Design)",
+    img: "https://i.ibb.co/zPtwbzp/watanabe.png",
+    desc: "in this Website you will find One OF the best Ui Design both modern and aesthetics with 5 different pages its only Frontend work to show my Frontend Skills ",
+    link: "https://archiztecturez.vercel.app/",
+    link2: "https://github.com/Zihad-Hasan-Dev/Artitacz",
+  },
+
 
 
   {
@@ -48,8 +97,17 @@ const items = [
     link2: "https://github.com/Zihad-Hasan-Dev",
 
   },
-  
 
+  {
+    id: 44,
+    title: "LiveDocsz",
+    img: "https://i.ibb.co/LPhbfMY/live.png",
+    desc: "Welcome to LiveDocs, your premier platform for real-time document collaboration and management. Whether you’re working on a project with a team, sharing important documents with clients, or managing personal files, LiveDocs offers a seamless and secure environment for all your document needs. Our platform is designed to enhance productivity and streamline workflows through advanced features and intuitive design.",
+    link: "https://livedocsz.vercel.app/",
+    link2: "https://github.com/maruf449/Livedocsz",
+
+  },
+  
   {
     id: 4232,
     title: "WorkFlow WEB",
@@ -80,6 +138,8 @@ const items = [
     link2: "https://github.com/Zihad-hasan-maruf/Blogz-App",
 
   },
+
+
 
   {
     id: 4,
