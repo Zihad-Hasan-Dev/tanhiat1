@@ -46,11 +46,18 @@ const App = () => {
       </AnimatePresence>
 
 <CursorTrail />
+
       <div className="test1" >
 
       <section id="Homepage" >
+        
         <Navbar/>
         <Hero/>
+    
+        <div class="background-gradient"></div>
+        <div class="background-noise"></div>
+        
+        
       </section>
 
       <section id="Services">
@@ -89,12 +96,13 @@ const App = () => {
       </section>
 
 
-
+   
       
       {/* Framer Motion Crash Course */}
       {/* <Test/>
     <Test/> */}
     </div>
+    
   );
 };
 

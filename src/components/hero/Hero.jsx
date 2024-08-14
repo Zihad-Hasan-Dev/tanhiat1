@@ -116,18 +116,17 @@ const Hero = () => {
             </Canvas>
           </div>
 
-          <motion.div
-            className="imageContainer"
-            initial={{ y: 0 }}
-            animate={{ y: -30 }}
-            transition={{ duration: 2, repeat: Infinity, repeatType: "reverse" }}
-          >
-            <img src="/true.png" alt="true" border="0"/>
+         <div className="imagehome">
+
+
+         </div>
               
-                    </motion.div>
+
         </div>
       </motion.div>
+   
     </div>
+    
   );
 };
 
