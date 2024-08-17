@@ -86,8 +86,8 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
+        Build Your Dream Website
         
-        Writer Content Creator Influencer
       </motion.div>
 
       <div

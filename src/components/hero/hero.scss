@@ -54,18 +54,16 @@ transform: translateY(60px);
         width: 100%;
         span{
           color: rgb(0, 0, 0);
-          transform: translateY(25px);
+          transform: translateY(-15px);
           display: flex;
           z-index: 9999;
-           
+          position: absolute;
+
   @include bigscreen {
   font-weight: bold; /* Make text bold */
-
   color: black;
-
    font-size: 90px; 
    transform: translateY(50px);
-
   }
         }
 
@@ -131,25 +129,14 @@ transform: translateY(60px);
         }
 
         .button1:hover{
-          scale: 1.5;
+          scale: 1.2;
 
           @include bigscreen {
-           scale: 1.2;
+           scale: 1.1;
            }
           
         }
-        .button2{
-          cursor: pointer;
-          color: aqua;
-          @include bigscreen {
-            display: none;
-           }
-         
-        }
-
-        .button2:hover{
-          color: white;
-        }
+    
       }
 
       img {
@@ -162,22 +149,13 @@ transform: translateY(60px);
   .slidingTextContainer {
     position: absolute;
     font-size: 50vh;
-    z-index:-100000;
+    z-index:00000;
     bottom: -100px;
     white-space: nowrap;
     width: 50%;
     font-weight: bold;
     cursor: default;
-    z-index: 88;
-    background: #6f96ff; /* Blackish gradient */
-    background-clip: text; /* Clip background to text */
-    -webkit-background-clip: text; /* For WebKit browsers */
-    color: transparent; /* Make text color transparent */
-    text-shadow: 
-      1px 1px 2px rgba(5, 42, 190, 0.4), /* Dark shadow for depth */
-      0 0 10px rgba(154, 143, 216, 0.6), /* Glowing effect */
-      0 0 5px rgba(49, 37, 104, 0.568); /* Additional highlight */
-      
+    color: #3e30ff23; /* Blackish gradient */
   }
 
   .spacontainer {
@@ -262,5 +240,14 @@ border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
 
   100% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+.scrol1{
+  position: absolute;
+  bottom: 40px;
+  @include bigscreen{
+    position: absolute;
+    bottom: 200px;
   }
 }
