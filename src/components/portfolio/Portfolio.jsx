@@ -17,22 +17,22 @@ const items = [
   },
   
   {
-    id: 42,
-    title: "OnlyHorsez",
-    img: "https://i.ibb.co/tMq1pFh/sfasafafhoursees.jpg",
-    desc: "This is Only fans but for horses lol its a parody and made it for fun only. but its features are like `only fans` where people can comment like and buy subscription to see hidden content and buy marches exclusivly so make sure to check it out and its made with typescript nextjs and tailwind ",
-    link: "https://onlyhorsez.vercel.app/",
-    link2: "https://github.com/maruf449/Horsezonly",
-
-  },
-
-  {
     id: 11,
     title: "hotelzmanaze",
     img: "https://i.ibb.co/WfrK2Q4/hotela.png",
     desc: "Welcome to HotelzManage, your ultimate solution for seamless hotel management and booking. Whether you are a hotel owner seeking to streamline operations or a traveler looking for the perfect stay, HotelzManage has everything you need. Our platform offers comprehensive tools for managing reservations, guest services, and property maintenance",
     link: "https://hotelzmanaze.vercel.app/",
     link2: "https://github.com/maruf449/HotelZmanaZe",
+
+  },
+
+  {
+    id: 42,
+    title: "OnlyHorsez",
+    img: "https://i.ibb.co/tMq1pFh/sfasafafhoursees.jpg",
+    desc: "This is Only fans but for horses lol its a parody and made it for fun only. but its features are like `only fans` where people can comment like and buy subscription to see hidden content and buy marches exclusivly so make sure to check it out and its made with typescript nextjs and tailwind ",
+    link: "https://onlyhorsez.vercel.app/",
+    link2: "https://github.com/maruf449/Horsezonly",
 
   },
 
