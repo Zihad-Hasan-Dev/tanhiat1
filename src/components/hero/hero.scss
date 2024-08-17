@@ -56,13 +56,16 @@ transform: translateY(60px);
           color: rgb(0, 0, 0);
           transform: translateY(25px);
           display: flex;
-          z-index: 999999999999999;
+          z-index: 9999;
            
   @include bigscreen {
-    color: white;
+  font-weight: bold; /* Make text bold */
+
+  color: black;
 
    font-size: 90px; 
    transform: translateY(50px);
+
   }
         }
 
@@ -159,13 +162,22 @@ transform: translateY(60px);
   .slidingTextContainer {
     position: absolute;
     font-size: 50vh;
+    z-index:-100000;
     bottom: -100px;
     white-space: nowrap;
-    color: #ffffff27;
     width: 50%;
     font-weight: bold;
     cursor: default;
     z-index: 88;
+    background: #6f96ff; /* Blackish gradient */
+    background-clip: text; /* Clip background to text */
+    -webkit-background-clip: text; /* For WebKit browsers */
+    color: transparent; /* Make text color transparent */
+    text-shadow: 
+      1px 1px 2px rgba(5, 42, 190, 0.4), /* Dark shadow for depth */
+      0 0 10px rgba(154, 143, 216, 0.6), /* Glowing effect */
+      0 0 5px rgba(49, 37, 104, 0.568); /* Additional highlight */
+      
   }
 
   .spacontainer {
@@ -200,7 +212,7 @@ transform: translateY(60px);
       }
 
       .imagehome {
-        background: url(/public/false2.jpg);
+        background: url(/false2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

@@ -1,11 +1,10 @@
 import { useRef } from "react";
 import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
-import HyperpixelHover from "../hhyper/hyprx";
 import RoundedButton from "../../common/RoundedButton";
 import Magnetic from "../../common/Magnetic";
 
-const items = [
+const items = [ 
 
   {
     id: 42,
@@ -14,6 +13,16 @@ const items = [
     desc: "This is an E-commerce Website about phone cases. where you can order phone case and customize as your wish. different features haves different prices. where owner have admin dashboard to control everything. this is my best work !!!",
     link: "https://cobrazcase.vercel.app/",
     link2: "https://github.com/Zihad-Hasan-Dev/cobrazcase",
+
+  },
+  
+  {
+    id: 42,
+    title: "OnlyHorsez",
+    img: "https://i.ibb.co/tMq1pFh/sfasafafhoursees.jpg",
+    desc: "This is Only fans but for horses lol its a parody and made it for fun only. but its features are like `only fans` where people can comment like and buy subscription to see hidden content and buy marches exclusivly so make sure to check it out and its made with typescript nextjs and tailwind ",
+    link: "https://onlyhorsez.vercel.app/",
+    link2: "https://github.com/maruf449/Horsezonly",
 
   },
 

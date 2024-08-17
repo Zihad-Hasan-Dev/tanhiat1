@@ -50,23 +50,16 @@ const Hero = () => {
     <div className="hero">
       <div className="wrapper">
         <div className="textContainer">
-          <motion.div
-            initial={{ x: -500, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.6 }}
-            className="hack"
-          >
-            <HyperpixelAnimation value="HI, I'm Zihad" delay={2000} />
-          </motion.div>
 
-          <motion.div
-            className="write"
-            initial={{ x: -500, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.6 }}
-          >
-            <Typewriter phrases={["Web Developer", "Frontend Developer", "UI/UX Designer"]} period={2000} />
-          </motion.div>
+          <div
+            className="hack" >
+            <HyperpixelAnimation value="HI, I'm Zihad" delay={2000} />
+          </div>
+
+          <div
+            className="write">
+            <Typewriter phrases={["Web Developer", "Frontend Developer", "Backend Developer"]} period={2000} />
+          </div>
 
           <div
             className="buttons"
@@ -93,15 +86,13 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
+        
         Writer Content Creator Influencer
       </motion.div>
 
-      <motion.div
-        className="spacontainer"
-        initial={{ x: 700, opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.7 }}
-      >
+      <div
+        className="spacontainer">
+
         <div className="sperecon">
           <div className="dis">
             <Canvas>
@@ -123,7 +114,7 @@ const Hero = () => {
               
 
         </div>
-      </motion.div>
+      </div>
    
     </div>
     

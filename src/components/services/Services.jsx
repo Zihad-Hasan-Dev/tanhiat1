@@ -5,24 +5,9 @@ import { useState } from 'react';
 import {motion, useInView} from 'framer-motion'
 import { useRef } from 'react';
 import { Mask } from '@react-three/drei';
-import Opatext from '../texani/page';
+import Word from '../texani/Word';
 
-const variants = {
-  initial: {
-    x: -500,
-    y: 100,
-    opacity: 0,
-  },
-  animate: {
-    x: 0,
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 1,
-      staggerChildren: 0.1,
-    },
-  },
-};
+const paragraph = "Hello there! i'm Zihad Hasan, i can make a Charming Website just for you. Your satisfaction is my motivation! My skills are in Html, CSS, React, Java scripts, and Photoshop. I make designs in pixel-perfect and unique ways.to deliver the right product for your business. Lets get in contact and begin working on your dream website! I will provide you with unlimited revisions and one month of free support. Thanks for your interest."
 
 const Services = () => {
   
@@ -71,7 +56,8 @@ WebkitMaskSize:`${size}px`  }}
     </motion.div>
 
     <motion.div className='content'>
-    <Opatext/>
+
+    <Word paragraph={paragraph}/>
 
  
 
