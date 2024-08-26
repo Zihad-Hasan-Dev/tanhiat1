@@ -7,6 +7,16 @@ import Magnetic from "../../common/Magnetic";
 const items = [ 
 
   {
+    id: 43282,
+    title: "Zociah",
+    img: "https://i.ibb.co/C6j7YZ4/ttgfdsgtfdsgsfd.png",
+    desc: "Zociah is a social media where users can connect in real time. The website offers features such as liking, commenting, and messaging other users you can chat in real time, with instant notifications to keep everyone updated on who has interacted with their posts. Users can bookmark their favorite content, view trending posts, and search for anything on the platform with real-time results",
+    link: "https://zociah.vercel.app/",
+    link2: "https://github.com/Zihad-Hasan-Dev/Zsocial",
+
+  },
+
+  {
     id: 42,
     title: "CobrazCase",
     img: "https://i.ibb.co/3TzPkWv/nextcase.png",
