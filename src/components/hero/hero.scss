@@ -47,6 +47,10 @@ transform: translateY(60px);
 }
     
   }
+
+  @include mobile {
+    transform: translateY(-50px);
+  }
       }
 
       .write {
@@ -68,7 +72,7 @@ transform: translateY(60px);
         }
 
         @include mobile {
-          display: none;
+          transform: translateX(-70px);
         }
       }
 
@@ -156,6 +160,12 @@ transform: translateY(60px);
     font-weight: bold;
     cursor: default;
     color: #3e30ff23; /* Blackish gradient */
+
+    @include mobile {
+          
+          color: #ffffff6c; /* Blackish gradient */
+
+    }
   }
 
   .spacontainer {

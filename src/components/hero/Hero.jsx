@@ -53,23 +53,14 @@ const Hero = () => {
 
           <div
             className="hack" >
-            <HyperpixelAnimation value="HI, I'm Zihad" delay={2000} />
+            <HyperpixelAnimation value="HI, My Love" delay={2000} />
           </div>
 
           <div
             className="write">
-            <Typewriter phrases={["Web Developer", "Frontend Developer", "Backend Developer"]} period={2000} />
+            <Typewriter phrases={["I Love You", "I miss you", "I want you"]} period={2000} />
           </div>
 
-          <div
-            className="buttons"
-          >
-            <a className="button1" variants={textVariants} href="#Portfolio">
-              Latest Works
-            </a>
-
-
-          </div>
 
           <motion.img
             variants={textVariants}
@@ -86,8 +77,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Build Your Dream Website
-        
+I am Really Sorry        
       </motion.div>
 
       <div

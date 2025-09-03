@@ -2,185 +2,171 @@ import { useRef } from "react";
 import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import RoundedButton from "../../common/RoundedButton";
-import Magnetic from "../../common/Magnetic";
 
 const items = [ 
 
   {
     id: 43282,
-    title: "Zociah",
-    img: "https://i.ibb.co/C6j7YZ4/ttgfdsgtfdsgsfd.png",
-    desc: "Zociah is a social media Website where users can connect in real time. The website offers features such as liking, commenting, and messaging other users you can chat in real time, with instant notifications to keep everyone updated on who has interacted with their posts. Users can bookmark their favorite content, view trending posts, and search for anything on the platform with real-time results",
-    link: "https://zociah.vercel.app/",
-    link2: "https://github.com/Zihad-Hasan-Dev/Zsocial",
+    title: "Ms Angry Girlfriend",
+    img: "/public/tan/a.jpg",
+    desc: "pagli ta ragle oneeeeeeeeeek cute lage....just look at her.. wow koto cute ..but ragle ekdom chire fele ...car e or rag dekhe ami bhoye sesh hoye gesilam",
+    link: "",
+    link2: "",
 
   },
 
-  {
-    id: 42,
-    title: "CobrazCase",
-    img: "https://i.ibb.co/3TzPkWv/nextcase.png",
-    desc: "This is an E-commerce Website about phone cases. where you can order phone case and customize as your wish. different features haves different prices. where owner have admin dashboard to control everything. this is my best work !!!",
-    link: "https://cobrazcase.vercel.app/",
-    link2: "https://github.com/Zihad-Hasan-Dev/cobrazcase",
-
-  },
-  
-  {
-    id: 11,
-    title: "hotelzmanaze",
-    img: "https://i.ibb.co/WfrK2Q4/hotela.png",
-    desc: "Welcome to HotelzManage, your ultimate solution for seamless hotel management and booking. Whether you are a hotel owner seeking to streamline operations or a traveler looking for the perfect stay, HotelzManage has everything you need. Our platform offers comprehensive tools for managing reservations, guest services, and property maintenance",
-    link: "https://hotelzmanaze.vercel.app/",
-    link2: "https://github.com/maruf449/HotelZmanaZe",
-
-  },
-
-  {
-    id: 42,
-    title: "OnlyHorsez",
-    img: "https://i.ibb.co/tMq1pFh/sfasafafhoursees.jpg",
-    desc: "This is Only fans but for horses lol its a parody and made it for fun only. but its features are like `only fans` where people can comment like and buy subscription to see hidden content and buy marches exclusivly so make sure to check it out and its made with typescript nextjs and tailwind ",
-    link: "https://onlyhorsez.vercel.app/",
-    link2: "https://github.com/maruf449/Horsezonly",
-
-  },
 
   {
     id: 22,
-    title: "CarZ Codder",
-    img: "https://i.ibb.co/Rc85KJN/carz.png",
-    desc: "Welcome to CarZ Codder, your ultimate destination for a seamless car rental experience. Whether you are planning a family vacation, a business trip, or simply need a reliable vehicle for a short-term need, we've got you covered. Our website offers an extensive selection of vehicles, ranging from economical compact cars to luxurious sedans, spacious SUVs, and versatile vans.",
-    link: "https://carzcodder.vercel.app/",
+    title: "An Angel in Saree",
+    img: "/public/tan/b.jpg",
+    desc: "Angel ta saree te kotooooo cute lage ....just wooooooow...harami tay amare ei pic ta deynai first e ...amake matha kata pic dise...pore main ta dise chaisi bade,,,,,eto cute eta uffff",
+    link: "",
     link2: "https://github.com/maruf449/CarZ-rental",
 
   },
 
   {
     id: 33,
-    title: "academyzudemu",
-    img: "https://i.ibb.co/4SmVstp/aca.png",
-    desc: "Welcome to academyzudemu, your premier platform for online learning and skill development.[You can create courses and people can buy your courses just like udemy.] You can also manage your courses and students!!",
-    link: "https://academyzudemu.vercel.app/",
+    title: "Nil Saree te",
+    img: "/public/tan/c.jpg",
+    desc: "দেখি তোমাকে আছো দাঁড়িয়ে আনমনে নীল শাড়িতে হাজার ভিড়ে সব ছাড়িয়ে শুধু তুমি আমার চোখে পথের ধারে তোমার আশায় ভালোবাসার ধূসর আলোতে আছি দাঁড়িয়ে স্বপ্ন নিয়ে তোমার আকাশে সুর ঝরাতে এক গুচ্ছ কদম হাতে ভিজতে চাই তোমার সাথে এক গুচ্ছ কদম হাতে ভিজতে চাই তোমার সাথে....rate dekha hobe tata.....tomake dekhe ami shock ....and loved the risky kiss ",
+    link: "",
     link2: "https://github.com/maruf449/Academyz",
 
   },
 
   {
     id: 44,
-    title: "ZihadsBlog",
-    img: "https://i.ibb.co/fNRZbNb/mannns.png",
-    desc: "Welcome to Zihad's Blogs, a modern and aesthetically pleasing platform where I Write blogs and people can like, comments.usually i post about my daily life and web development. [IT WILL TAKE SOME TIME TO LOAD UP SINCE ITS A FREE DOMAIN SO PLS WAIT] ",
-    link: "https://zihadsblog.onrender.com/",
+    title: "2 angry Pookies",
+    img: "/public/tan/d.jpg",
+    desc: "2 angry Pookies....but 1 is my pookie and other is my dads.... my pookie kotooooo cute lage ....just look at her.. wow koto cute ..but ragle ekdom chire fele both :) ...",
+    link: "",
     link2: "https://github.com/maruf449/ZihAD-S-BLOG",
 
   },
   
   {
     id: 1231,
-    title: "ZShop",
-    img: "https://i.ibb.co/0ZRbB70/test2.png",
-    desc: "This is an E-commerce Website Where many items are available for sale. Many categories to choose from. Where you have to be login in order to buy. also with aesthetics UI AND UX design using next js and tailwind css",
-    link: "https://zihadecom.vercel.app/",
+    title: "picchi pookie",
+    img: "/public/tan/e.jpg",
+    desc: "harami pic dite chaynah picchi kaler ...but picchi kaleo harami tay cute chilo ....tai to eto valo lagto picchi tare",
+    link: "",
     link2: "https://github.com/Zihad-Hasan-Dev/e-com",
 
   },
 
-  {
-    id: 1,
-    title: "archiztectureZ(ONLY Design)",
-    img: "https://i.ibb.co/zPtwbzp/watanabe.png",
-    desc: "in this Website you will find One OF the best Ui Design both modern and aesthetics with 5 different pages its only Frontend work to show my Frontend Skills ",
-    link: "https://archiztecturez.vercel.app/",
-    link2: "https://github.com/Zihad-Hasan-Dev/Artitacz",
-  },
-
-
-
-  {
-    id: 1,
-    title: "brainwave (ONLY Design)",
-    img: "https://i.ibb.co/ykM65Nv/id1.png",
-    desc: "A website about ai and modern tech. it is a prototype a demo with aesthetics UI AND UX design [PLEASE WAIT A MIN TO LOAD UP SINCE IT IS A FREE HOSTING SERVER IT MAY TAKE SOME TIMES] ",
-    link: "https://brainwow.vercel.app/",
-    link2: "https://github.com/Zihad-Hasan-Dev/brainwow",
-  },
 
 
   {
     id: 5,
-    title: "Portfolio", 
-    img: "https://i.ibb.co/bP4h5zQ/miamoto.png",
-    desc: "it is my old portfolio which i created a while ago. make sure to visit it[PLEASE WAIT A MIN TO LOAD UP SINCE IT IS A FREE HOSTING SERVER IT MAY TAKE SOME TIMES] ",
+    title: "Lucky bastard", 
+    img: "/public/tan/f.jpg",
+    desc: "Someone can cry for me can you believe it??? for someone as useless as pathetic person like someone cried.........i am really a lucky bastard",
     link: "https://zihadhasandeveloper.vercel.app/",
     link2: "https://github.com/Zihad-Hasan-Dev",
 
   },
 
   {
-    id: 44,
-    title: "LiveDocsz",
-    img: "https://i.ibb.co/LPhbfMY/live.png",
-    desc: "Welcome to LiveDocs, your premier platform for real-time document collaboration and management. Whether you’re working on a project with a team, sharing important documents with clients, or managing personal files, LiveDocs offers a seamless and secure environment for all your document needs. Our platform is designed to enhance productivity and streamline workflows through advanced features and intuitive design.",
-    link: "https://livedocsz.vercel.app/",
-    link2: "https://github.com/maruf449/Livedocsz",
-
-  },
-  
-  {
-    id: 4232,
-    title: "WorkFlow WEB",
-    img: "https://i.ibb.co/xL7RC2s/websafi.webp",
-    desc: "this website about workflow where you can maintain your work in a amazing manner with high-end design and dark themed you can plan your work here!",
-    link: "https://adorable-babka-70fdc0.netlify.app/",
-    link2: "https://github.com/Zihad-hasan-maruf/SAAS-Automation",
-
-  },
-
-
-  {
-    id: 9,
-    title: "AI Generate Photos Web",
-    img: "https://hotpot.ai/images/site/ogDefaultImage.jpg",
-    desc: "its a AI Image generator website. where you can generate any image to your liking and post it on the community where other can see your posted image. in order to get your img you just have to describe it ;) [ITS A BACK-END PROJECT USING OPENAI AND MONGODB]",
-    link: "https://incredible-beignet-7b43dd.netlify.app/",
-    link2: "https://github.com/Zihad-hasan-maruf/Ai-Gallery",
-
-  },
-
-  {
-    id: 2,
-    title: "Blog Website",
-    img: "https://i.ibb.co/gJMcW2X/hahaha.png",
-    desc: "ITS a blog website where you can sign in or sign up, publish posts, and comment, check views etc with working backend [ITS A BACK-END PROJECT USING MONGODB, PRISMA AND FIREBASE] ",
-    link: "https://zihadblogz.netlify.app/",
-    link2: "https://github.com/Zihad-hasan-maruf/Blogz-App",
-
-  },
-
-
-
-  {
-    id: 4,
-    title: "metaverse (ONLY Design)",
-    img: "https://i.ibb.co/JQ97N35/id3.png",
-    desc: "This is an Awesome Website about metaverse and VR make sure to check it out. it is a prototype a demo with aesthetics UI AND UX design [PLEASE WAIT A MIN TO LOAD UP SINCE IT IS A FREE HOSTING SERVER IT MAY TAKE SOME TIMES] ",
-    link: "https://metawow.vercel.app/",
-    link2: "https://github.com/Zihad-Hasan-Dev/metawow",
-
-
-  },
-
-  {
-    id: 3,
-    title: "parrallax EFFECT (ONLY Design)",
-    img: "https://i.ibb.co/RTdV6zs/id2.png",
-    desc: "This is an Awesome parallax effect make sure to check it out. it is a prototype a demo with aesthetics UI AND UX design [PLEASE WAIT A MIN TO LOAD UP SINCE IT IS A FREE HOSTING SERVER IT MAY TAKE SOME TIMES] ",
-    link: "https://parrallax13.netlify.app/",
+    id: 5,
+    title: "vallagse", 
+    img: "/public/tan/g.jpg",
+    desc: "well harami theke ei pic screen share dia nisilam ...pagli tay eto cute pic ta deynai......koto cute lagtase ummmmaaaaaaaaaaaaaaaaahhhhhhhhhhhhhhhhhhhhh",
+    link: "",
     link2: "https://github.com/Zihad-Hasan-Dev",
 
+  },
+
+  {
+    id: 5,
+    title: "Pori", 
+    img: "/public/tan/h.jpg",
+    desc: "well onno rokom charm pic tay hehehe lage akashe ure jaba ekhoni",
+    link: "",
+    link2: "https://github.com/Zihad-Hasan-Dev",
 
   },
+
+  {
+    id: 5,
+    title: "Wallpaper", 
+    img: "/public/tan/i.jpg",
+    desc: "harami tay amare wallpaper er pic ta deynai ...pore ami screen share theke dekhsi...uff eto joss wallpaper kemne thake ekjoner hum????",
+    link: "",
+    link2: "https://github.com/Zihad-Hasan-Dev",
+
+  },
+
+  {
+    id: 5,
+    title: "Madam", 
+    img: "/public/tan/j.jpg",
+    desc: "amar pookie kintu oneeeek smart....oy always right ...ja info de sob right dey ami always here jai chatgpt re ask koira .........please teach me madam",
+    link: "",
+    link2: "https://github.com/Zihad-Hasan-Dev",
+
+  },
+
+  {
+    id: 5,
+    title: "Wish", 
+    img: "/public/tan/k.jpg",
+    desc: "amar pookie er friend ta lucky baaaal ami erokom or orna dhore tan dite parlam nah ufff eto cute lagtase pookie reh ar tumi sotti oneeeeeeeeek red like koro....70% red dress uhuuuuuuu ekhon harami bolbo bou sajte chai tai ufff baaaaaal",
+    link: "",
+    link2: "https://github.com/Zihad-Hasan-Dev",
+
+  },
+
+  {
+    id: 5,
+    title: "lets go to this park Together", 
+    img: "/public/tan/l.jpg",
+    desc: "ei park ta valo lagse amar ..... mon chay tomr sathe ei park e guri hat dhore but tumi red dress poiro cute e lage",
+    link: "",
+    link2: "https://github.com/Zihad-Hasan-Dev",
+
+  },
+
+
+  {
+    id: 5,
+    title: "Angry=Cute", 
+    img: "/public/tan/o.jpg",
+    desc: "Angry deklei amar neuron active hoye jay and horny hoye jai....eto cute lage angry thakleeeeeeee",
+    link: "",
+    link2: "https://github.com/Zihad-Hasan-Dev",
+
+  },{
+    id: 5,
+    title: "pichon theke hug korte chai", 
+    img: "/public/tan/p.jpg",
+    desc: "harami ex er basay gese gurte....ufff ar eto cute bhabe gese red e ...........abar erokom hot hot pic tulse ja dekle ure jete mon chay hotness e",
+    link: "",
+    link2: "https://github.com/Zihad-Hasan-Dev",
+
+  },{
+    id: 5,
+    title: "Dslr er dam nai", 
+    img: "/public/tan/q.jpg",
+    desc: "tomr bhaiye biye te je eto valo camera diye pic tullo...kono metter e hoynai,,,,,tumi always cute....real ....komdami camera....valo camera....always cute ...........i will never fall in love again",
+    link: "",
+    link2: "https://github.com/Zihad-Hasan-Dev",
+
+  },
+
+  {
+    id: 5,
+    title: "red pookie with red cow", 
+    img: "/public/tan/r.jpg",
+    desc: "i dont know but ei pic ta cuteness overlord tomr expression ta onek mayabi just hug korte mon chay uffffffff",
+    link: "",
+    link2: "https://github.com/Zihad-Hasan-Dev",
+
+  },
+
+
+  
 
 
 ];
@@ -210,20 +196,9 @@ const Single = ({ item }) => {
             <div className="box">
 
            
-                 <a href={item.link} target="_blank"> <RoundedButton> <p>Visit Demo </p> </RoundedButton> </a>
+                 <a href={item.link} target="_blank"> <RoundedButton> <p>Pakhi</p> </RoundedButton> </a>
 
-                 <div className="gitt">
-
-                  <a target="_blank" href={item.link2}>
-                  <Magnetic>
-     <img src="github.png" alt="" />
-                  </Magnetic>
-
-           
-
-                  </a>
-
-                 </div>
+                
 
              </div>
           
@@ -251,7 +226,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" ref={ref}>
       <div className="progress">
-        <h1>Feature Works</h1>
+        <h1>You Are Really Cute</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
       {items.map((item) => (

@@ -9,9 +9,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 import { AnimatePresence, useScroll } from "framer-motion";
 import CursorTrail from "./components/cursor/CursorTrail";
-import Earthglove from "./earthapp/page";
 import Prelodeho from "./components/Preloader";
-import Comataa from "./certi/page";
 import Hero from "./components/hero/Hero";
 
 
@@ -65,7 +63,6 @@ const App = () => {
       </section> 
   </div>
 
-  <Earthglove/>
 
 
 
@@ -76,9 +73,7 @@ const App = () => {
 
 
 
-<main className="coma">
-   <Comataa/>
-</main>
+
    
 
 

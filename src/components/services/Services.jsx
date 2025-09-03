@@ -7,7 +7,7 @@ import { useRef } from 'react';
 import { Mask } from '@react-three/drei';
 import Word from '../texani/Word';
 
-const paragraph = "Hello there! i'm Zihad Hasan, i can make a Charming Website just for you. Your satisfaction is my motivation! My skills are in Html, CSS, React, Java scripts, and Photoshop. I make designs in pixel-perfect and unique ways.to deliver the right product for your business. Lets get in contact and begin working on your dream website! I will provide you with unlimited revisions and one month of free support. Thanks for your interest."
+const paragraph = "I swear, you're like my least favorite person really annoying. You’re lucky you're cute, because your personality? Debatable. And yet, here I am. Youre like the worst decision I make every day — and I keep choosing you," 
 
 const Services = () => {
   
@@ -35,10 +35,8 @@ WebkitMaskSize:`${size}px`  }}
     >
   <p className='pp' onMouseEnter={() => setIshovered(true)} onMouseLeave={() => setIshovered(false)}>
     
-     Well Well Well This is kind of shit that everybody wrotes. but noone truly care or
-  do. so the qns is that if my shit is true or not. of course it's a lie :p but I can ensure you that I will cook harder than any other cooker you have ever saw ;p
-  Thanks!  
-  
+  I never thought I could feel this way, but now I love you deeply. I want you close, I miss you every second, and to me, you’re the most beautiful soul in the world.
+  ..I Really Loves You..
    <html lang="en">
   <head>
     <meta charset="UTF-8" />

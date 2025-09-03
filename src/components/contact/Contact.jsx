@@ -56,19 +56,19 @@ const Contact = () => {
       whileInView="animate"
     >
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}> <HyperpixelAnimation value="Lets Work" delay={1000}/></motion.h1>
+        <motion.h1 variants={variants}> <HyperpixelAnimation value="Heybeauty" delay={1000}/></motion.h1>
         <motion.div className="item" variants={variants}>
-          <h2>Mail</h2>
+          <h2>Zihad hasan fb id</h2>
           <span>zihadhasan7211@gmail.com</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
-          <h2>Address</h2>
-          <span>bangladesh, dhaka</span>
+          <h2>01797187105</h2>
+          <span>bangladesh, dhaka, hasnabad , near pliibiddutt</span>
         </motion.div>
 
         <motion.div className="item" variants={variants}>
       
-          <h2>Massage Me!</h2>
+          <h2>Massage Me! if you miss me .......i am always Sorry if i make any mistake please dont forget me ,,,even if i make mistake ,,,,dont forget me,,,always remember me,,,,pls keep me in your heart ...no mettter what i do ....i am Sorry if i done anything wrong in the future or now</h2>
           <span></span>
         </motion.div>
 

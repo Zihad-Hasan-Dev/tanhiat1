@@ -19,7 +19,7 @@ const Navbar = () => {
           Zihad Hasan DEV
         </motion.span>
         <div className="social">
-          <a href="https://www.facebook.com/zihad.hasan.92754/" target="_blank">
+          <a href="https://www.facebook.com/a.jmyl.ywm" target="_blank">
             <img src="/facebook.png" alt="" />
           </a>
           <a href="https://www.instagram.com/zihad_hasan__/" target="_blank">
@@ -28,9 +28,7 @@ const Navbar = () => {
           <a href="https://www.youtube.com/@zihagamers4073" target="_blank">
             <img src="/youtube.png" alt="" />
           </a>
-          <a href="https://github.com/Zihad-hasan-maruf">
-            <img src="/github.png" alt="" />
-          </a>
+         
         </div> 
       </div>
     </div>
