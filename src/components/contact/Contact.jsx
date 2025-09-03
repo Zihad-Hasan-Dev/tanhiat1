@@ -68,7 +68,11 @@ const Contact = () => {
 
         <motion.div className="item" variants={variants}>
       
-          <h2>Massage Me! if you miss me .......i am always Sorry if i make any mistake please dont forget me ,,,even if i make mistake ,,,,dont forget me,,,always remember me,,,,pls keep me in your heart ...no mettter what i do ....i am Sorry if i done anything wrong in the future or now</h2>
+          <h2>Massage me if you miss me… 💌
+I’m always sorry if I ever hurt you, even by mistake. Please don’t forget me… no matter what. ❤️
+Even if I falter, always keep me in your heart.
+I hope you’ll remember me, cherish me, and hold me close in your thoughts…
+I’m sorry for anything I’ve done wrong, today or in the future… but my heart is always yours. 💖</h2>
           <span></span>
         </motion.div>
 

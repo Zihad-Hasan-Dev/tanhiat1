@@ -7,7 +7,7 @@ import { useRef } from 'react';
 import { Mask } from '@react-three/drei';
 import Word from '../texani/Word';
 
-const paragraph = "I swear, you're like my least favorite person really annoying. You’re lucky you're cute, because your personality? Debatable. And yet, here I am. Youre like the worst decision I make every day — and I keep choosing you," 
+const paragraph = "I swear, you're like my least favorite person really annoying. You’re lucky you're cute, because your personality? Debatable. And yet, here I am. Youre like the worst decision I make every day — Harami, pagli," 
 
 const Services = () => {
   

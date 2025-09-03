@@ -8,7 +8,7 @@ const items = [
   {
     id: 43282,
     title: "Ms Angry Girlfriend",
-    img: "/public/tan/a.jpg",
+    img: "https://i.ibb.co.com/C3y1hLV2/a.jpg",
     desc: "pagli ta ragle oneeeeeeeeeek cute lage....just look at her.. wow koto cute ..but ragle ekdom chire fele ...car e or rag dekhe ami bhoye sesh hoye gesilam",
     link: "",
     link2: "",
@@ -19,7 +19,7 @@ const items = [
   {
     id: 22,
     title: "An Angel in Saree",
-    img: "/public/tan/b.jpg",
+    img: "https://i.ibb.co.com/hJLdXt36/b.jpg",
     desc: "Angel ta saree te kotooooo cute lage ....just wooooooow...harami tay amare ei pic ta deynai first e ...amake matha kata pic dise...pore main ta dise chaisi bade,,,,,eto cute eta uffff",
     link: "",
     link2: "https://github.com/maruf449/CarZ-rental",
@@ -29,7 +29,7 @@ const items = [
   {
     id: 33,
     title: "Nil Saree te",
-    img: "/public/tan/c.jpg",
+    img: "https://i.ibb.co.com/qMHVdvSn/c.jpg",
     desc: "দেখি তোমাকে আছো দাঁড়িয়ে আনমনে নীল শাড়িতে হাজার ভিড়ে সব ছাড়িয়ে শুধু তুমি আমার চোখে পথের ধারে তোমার আশায় ভালোবাসার ধূসর আলোতে আছি দাঁড়িয়ে স্বপ্ন নিয়ে তোমার আকাশে সুর ঝরাতে এক গুচ্ছ কদম হাতে ভিজতে চাই তোমার সাথে এক গুচ্ছ কদম হাতে ভিজতে চাই তোমার সাথে....rate dekha hobe tata.....tomake dekhe ami shock ....and loved the risky kiss ",
     link: "",
     link2: "https://github.com/maruf449/Academyz",
@@ -39,7 +39,7 @@ const items = [
   {
     id: 44,
     title: "2 angry Pookies",
-    img: "/public/tan/d.jpg",
+    img: "https://i.ibb.co.com/TxD5fYsT/d.jpg",
     desc: "2 angry Pookies....but 1 is my pookie and other is my dads.... my pookie kotooooo cute lage ....just look at her.. wow koto cute ..but ragle ekdom chire fele both :) ...",
     link: "",
     link2: "https://github.com/maruf449/ZihAD-S-BLOG",
@@ -49,7 +49,7 @@ const items = [
   {
     id: 1231,
     title: "picchi pookie",
-    img: "/public/tan/e.jpg",
+    img: "https://i.ibb.co.com/FqHd5WQ2/e.jpg",
     desc: "harami pic dite chaynah picchi kaler ...but picchi kaleo harami tay cute chilo ....tai to eto valo lagto picchi tare",
     link: "",
     link2: "https://github.com/Zihad-Hasan-Dev/e-com",
@@ -61,7 +61,7 @@ const items = [
   {
     id: 5,
     title: "Lucky bastard", 
-    img: "/public/tan/f.jpg",
+    img: "https://i.ibb.co.com/rYTWqZS/f.jpg",
     desc: "Someone can cry for me can you believe it??? for someone as useless as pathetic person like someone cried.........i am really a lucky bastard",
     link: "https://zihadhasandeveloper.vercel.app/",
     link2: "https://github.com/Zihad-Hasan-Dev",
@@ -71,7 +71,7 @@ const items = [
   {
     id: 5,
     title: "vallagse", 
-    img: "/public/tan/g.jpg",
+    img: "https://i.ibb.co.com/wZFzCH7F/g.jpg",
     desc: "well harami theke ei pic screen share dia nisilam ...pagli tay eto cute pic ta deynai......koto cute lagtase ummmmaaaaaaaaaaaaaaaaahhhhhhhhhhhhhhhhhhhhh",
     link: "",
     link2: "https://github.com/Zihad-Hasan-Dev",
@@ -81,7 +81,7 @@ const items = [
   {
     id: 5,
     title: "Pori", 
-    img: "/public/tan/h.jpg",
+    img: "https://i.ibb.co.com/2zS72hs/h.jpg",
     desc: "well onno rokom charm pic tay hehehe lage akashe ure jaba ekhoni",
     link: "",
     link2: "https://github.com/Zihad-Hasan-Dev",
@@ -91,7 +91,7 @@ const items = [
   {
     id: 5,
     title: "Wallpaper", 
-    img: "/public/tan/i.jpg",
+    img: "https://i.ibb.co.com/G4sc7F5n/i.jpg",
     desc: "harami tay amare wallpaper er pic ta deynai ...pore ami screen share theke dekhsi...uff eto joss wallpaper kemne thake ekjoner hum????",
     link: "",
     link2: "https://github.com/Zihad-Hasan-Dev",
@@ -101,7 +101,7 @@ const items = [
   {
     id: 5,
     title: "Madam", 
-    img: "/public/tan/j.jpg",
+    img: "https://i.ibb.co.com/cc1qTnr9/j.jpg",
     desc: "amar pookie kintu oneeeek smart....oy always right ...ja info de sob right dey ami always here jai chatgpt re ask koira .........please teach me madam",
     link: "",
     link2: "https://github.com/Zihad-Hasan-Dev",
@@ -111,7 +111,7 @@ const items = [
   {
     id: 5,
     title: "Wish", 
-    img: "/public/tan/k.jpg",
+    img: "https://i.ibb.co.com/DgmgWyq4/k.jpg",
     desc: "amar pookie er friend ta lucky baaaal ami erokom or orna dhore tan dite parlam nah ufff eto cute lagtase pookie reh ar tumi sotti oneeeeeeeeek red like koro....70% red dress uhuuuuuuu ekhon harami bolbo bou sajte chai tai ufff baaaaaal",
     link: "",
     link2: "https://github.com/Zihad-Hasan-Dev",
@@ -121,7 +121,7 @@ const items = [
   {
     id: 5,
     title: "lets go to this park Together", 
-    img: "/public/tan/l.jpg",
+    img: "https://i.ibb.co.com/xS8Zc9DY/l.jpg",
     desc: "ei park ta valo lagse amar ..... mon chay tomr sathe ei park e guri hat dhore but tumi red dress poiro cute e lage",
     link: "",
     link2: "https://github.com/Zihad-Hasan-Dev",
@@ -132,7 +132,7 @@ const items = [
   {
     id: 5,
     title: "Angry=Cute", 
-    img: "/public/tan/o.jpg",
+    img: "https://i.ibb.co.com/HDXsdBbz/o.jpg",
     desc: "Angry deklei amar neuron active hoye jay and horny hoye jai....eto cute lage angry thakleeeeeeee",
     link: "",
     link2: "https://github.com/Zihad-Hasan-Dev",
@@ -140,7 +140,7 @@ const items = [
   },{
     id: 5,
     title: "pichon theke hug korte chai", 
-    img: "/public/tan/p.jpg",
+    img: "https://i.ibb.co.com/gMjMLNds/p.jpg",
     desc: "harami ex er basay gese gurte....ufff ar eto cute bhabe gese red e ...........abar erokom hot hot pic tulse ja dekle ure jete mon chay hotness e",
     link: "",
     link2: "https://github.com/Zihad-Hasan-Dev",
@@ -148,7 +148,7 @@ const items = [
   },{
     id: 5,
     title: "Dslr er dam nai", 
-    img: "/public/tan/q.jpg",
+    img: "https://i.ibb.co.com/d4YJXrB8/q.jpg",
     desc: "tomr bhaiye biye te je eto valo camera diye pic tullo...kono metter e hoynai,,,,,tumi always cute....real ....komdami camera....valo camera....always cute ...........i will never fall in love again",
     link: "",
     link2: "https://github.com/Zihad-Hasan-Dev",
@@ -158,8 +158,28 @@ const items = [
   {
     id: 5,
     title: "red pookie with red cow", 
-    img: "/public/tan/r.jpg",
+    img: "https://i.ibb.co.com/Kx3PCTZv/r.jpg",
     desc: "i dont know but ei pic ta cuteness overlord tomr expression ta onek mayabi just hug korte mon chay uffffffff",
+    link: "",
+    link2: "https://github.com/Zihad-Hasan-Dev",
+
+  },
+
+   {
+    id: 5,
+    title: "Snow white", 
+    img: "https://i.ibb.co.com/bR5W7jgd/Whats-App-Image-2025-09-03-at-15-18-22-2d1d0c6c.jpg",
+    desc: "amar snow white...every animal loves her...i am also animal hehehe..sorry onek cute lagtasilo tai ami ss nisi ummmmaaaaaaaaaaaahhhhh",
+    link: "",
+    link2: "https://github.com/Zihad-Hasan-Dev",
+
+  },
+
+   {
+    id: 5,
+    title: "pookie with her snakes", 
+    img: "https://i.ibb.co.com/qM5mDFHf/Whats-App-Image-2025-09-03-at-15-18-21-6c7f17fa.jpg",
+    desc: "Sob gula snakes with one and only cutie snow white and her friend....sob snakes gula nijere kora mone korto ar hate korto amar pookie reh monne mone",
     link: "",
     link2: "https://github.com/Zihad-Hasan-Dev",
 
