@@ -48,29 +48,7 @@ const sliderVariants = {
 const Hero = () => {
   return (
     <div className="hero">
-      <div className="wrapper">
-        <div className="textContainer">
 
-          <div
-            className="hack" >
-            <HyperpixelAnimation value="HI, My Love" delay={2000} />
-          </div>
-
-          <div
-            className="write">
-            <Typewriter phrases={["I Love You", "I miss you", "I want you"]} period={2000} />
-          </div>
-
-
-          <motion.img
-            variants={textVariants}
-            animate="scrollButton"
-            src="/scroll.png"
-            alt=""
-            className="scrol1"
-          />
-        </div>
-      </div>
       <motion.div
         className="slidingTextContainer"
         variants={sliderVariants}
@@ -85,16 +63,7 @@ I am Really Sorry
 
         <div className="sperecon">
           <div className="dis">
-            <Canvas>
-              <Suspense fallback={null}>
-                <OrbitControls enableZoom={false} />
-                <ambientLight intensity={1} />
-                <directionalLight position={[3, 2, 1]} />
-                <Sphere args={[1, 100, 200]} scale={2.7}>
-                  <MeshDistortMaterial color="#3d1c56" attach="material" distort={0.3} speed={3} roughness={0} />
-                </Sphere>
-              </Suspense>
-            </Canvas>
+          
           </div>
 
          <div className="imagehome">
