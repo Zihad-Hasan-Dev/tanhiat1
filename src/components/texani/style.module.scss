@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 @font-face{
   font-family: KaushanScript;
   src: url(/fonts/KaushanScript-Regular.ttf) format('truetype');
@@ -16,6 +18,12 @@
   font-weight: 500;
 color: #ffffff;
   flex-wrap: wrap;
+
+
+@include mobile{
+    font-size: 35px;
+  }
+
 
   span{
     font-family: KaushanScript;
