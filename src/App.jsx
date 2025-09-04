@@ -10,7 +10,6 @@ import { AnimatePresence } from "framer-motion";
 import CursorTrail from "./components/cursor/CursorTrail";
 import Prelodeho from "./components/Preloader";
 import Hero from "./components/hero/Hero";
-
 import Lock from "./components/lock/Lock";
 import { SITE_PIN, PIN_COOKIE } from "./config/pin";
 
