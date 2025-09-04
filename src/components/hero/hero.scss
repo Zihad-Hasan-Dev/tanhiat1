@@ -73,6 +73,12 @@ transform: translateY(60px);
 
         @include mobile {
           transform: translateX(-70px);
+          position: absolute;
+          top: 160px;
+           align-items: center;
+        text-align: center;
+        font-size: 50px;
+          left: 80px;
         }
       }
 
