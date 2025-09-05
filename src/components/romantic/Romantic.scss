@@ -1,0 +1,137 @@
+.romantic-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 2rem;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    min-height: 90vh;
+  }
+}
+
+/* Stars background */
+.star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Overlay content */
+.overlay {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 2rem;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    max-width: 90%;
+  }
+}
+
+/* Pulsing title */
+.romantic-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 15px rgba(255, 105, 180, 0.9);
+
+  @media (max-width: 768px) {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.8rem;
+  }
+}
+
+/* Typing message */
+.romantic-message {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: #f1f1f1;
+  margin-bottom: 2rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .highlight {
+    color: #ff77b5;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(255, 119, 181, 0.8);
+  }
+}
+
+/* Floating hearts */
+.floating-hearts {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  pointer-events: none;
+
+  .heart {
+    font-size: 2rem;
+    user-select: none;
+
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+/* Clicked hearts */
+.heart-click {
+  font-size: 2rem;
+  pointer-events: none;
+  user-select: none;
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.2rem;
+  }
+}
+
+/* Floating love words */
+.floating-word {
+  position: absolute;
+  font-size: 1.2rem;
+  color: #ff77b5;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(255, 119, 181, 0.7);
+  pointer-events: none;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.85rem;
+  }
+}

@@ -11,57 +11,58 @@ import CursorTrail from "./components/cursor/CursorTrail";
 import Prelodeho from "./components/Preloader";
 import Hero from "./components/hero/Hero";
 import Lock from "./components/lock/Lock";
-import { SITE_PIN, PIN_COOKIE } from "./config/pin";
-
-const hasValidCookie = () =>
-  document.cookie.split("; ").some((c) => c === `${PIN_COOKIE}=${SITE_PIN}`);
+import Romantic from "./components/romantic/romantic";
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true);
   const [unlocked, setUnlocked] = useState(false);
+  const [showPreloader, setShowPreloader] = useState(false);
 
+  // When unlocked → trigger preloader
   useEffect(() => {
-    // Check PIN cookie once on mount
-    if (hasValidCookie()) setUnlocked(true);
+    if (unlocked) {
+      setShowPreloader(true);
+      const timer = setTimeout(() => setShowPreloader(false), 2000); // ⏱️ show 2s
+      return () => clearTimeout(timer);
+    }
+  }, [unlocked]);
 
-    (async () => {
-      const LocomotiveScroll = (await import("locomotive-scroll")).default;
-      new LocomotiveScroll();
-
-      setTimeout(() => {
-        setIsLoading(false);
-        document.body.style.cursor = "default";
-        window.scrollTo(0, 0);
-      }, 2000);
-    })();
-  }, []);
-
-  // Show Lock screen until the correct PIN is provided
+  // Step 1: Lock screen
   if (!unlocked) {
     return <Lock onSuccess={() => setUnlocked(true)} />;
   }
 
+  // Step 2: Preloader
+  if (showPreloader) {
+    return (
+      <AnimatePresence mode="wait">
+        <Prelodeho />
+      </AnimatePresence>
+    );
+  }
+
+  // Step 3: Main site
   return (
     <div>
-      <AnimatePresence mode="wait">
-        {isLoading && <Prelodeho />}
-      </AnimatePresence>
-
       <CursorTrail />
 
       <div className="test1">
         <section id="Homepage">
           <Navbar />
           <Hero />
-          {/* fixed: class → className */}
           <div className="background-gradient"></div>
           <div className="background-noise"></div>
         </section>
+
+       
 
         <section id="Services">
           <Parallax type="services" />
         </section>
       </div>
+
+       <section>
+          <Romantic/>
+        </section>
 
       <section>
         <Services />

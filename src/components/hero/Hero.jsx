@@ -31,19 +31,7 @@ const textVariants = {
   },
 };
 
-const sliderVariants = {
-  initial: {
-    x: 0,
-  },
-  animate: {
-    x: "-220%",
-    transition: {
-      repeat: Infinity,
-      repeatType: "mirror",
-      duration: 20,
-    },
-  },
-};
+
 
 const Hero = () => {
   return (
@@ -53,32 +41,19 @@ const Hero = () => {
 
           <div
             className="hack" >
-            <HyperpixelAnimation value="HI, My Love" delay={2000} />
+            <HyperpixelAnimation value="Hi My Love 💖" delay={2000} />
           </div>
 
           <div
             className="write">
-            <Typewriter phrases={["I Love You", "I miss you", "I want you"]} period={2000} />
+            <Typewriter phrases={["I Love You ❤️", "I Miss You 😘", "I want you🥰"]} period={2000} />
           </div>
 
 
-          <motion.img
-            variants={textVariants}
-            animate="scrollButton"
-            src="/scroll.png"
-            alt=""
-            className="scrol1"
-          />
+     
         </div>
       </div>
-      <motion.div
-        className="slidingTextContainer"
-        variants={sliderVariants}
-        initial="initial"
-        animate="animate"
-      >
-I am Really Sorry        
-      </motion.div>
+      
 
       <div
         className="spacontainer">

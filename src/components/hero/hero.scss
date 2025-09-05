@@ -1,152 +1,97 @@
 @import "../../app.scss";
 
-@font-face{
+@font-face {
   font-family: KaushanScript;
   src: url(/fonts/KaushanScript-Regular.ttf) format('truetype');
-  
 }
-
 
 .hero {
   height: calc(100vh - 100px);
   overflow: hidden;
   position: relative;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 100PX;
-  padding-bottom: 100PX;
+  padding: 100px;
   background: #111132;
-
- 
 
   .wrapper {
     max-width: 1366px;
     height: 100%;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
     .textContainer {
       width: 50%;
-      height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       gap: 40px;
-      cursor: default;
       padding-top: 150px;
+      cursor: default;
 
       .hack {
         position: absolute;
         top: 110px;
-         
-  @include bigscreen {
-    h1{
-      font-size: 90px;
-display: flex;
-transform: translateY(60px);
-}
-    
-  }
 
-  @include mobile {
-    transform: translateY(-50px);
-  }
+        h1 {
+          font-size: 90px;
+        }
+
+        @include mobile {
+          transform: translateY(-50px);
+          h1 {
+            font-size: 50px;
+          }
+        }
       }
 
       .write {
-        height: 100vh;
-        width: 100%;
-        span{
-          color: rgb(0, 0, 0);
-          transform: translateY(-15px);
+        span {
           display: flex;
+          position: absolute;
           z-index: 9999;
-          position: absolute;
+          color: black;
+          transform: translateY(-15px);
 
-  @include bigscreen {
-  font-weight: bold; /* Make text bold */
-  color: black;
-   font-size: 90px; 
-   transform: translateY(50px);
-  }
-        }
+          @include bigscreen {
+            font-size: 90px;
+            font-weight: bold;
+            transform: translateY(50px);
+          }
 
-        @include mobile {
-          transform: translateX(-70px);
-          position: absolute;
-          top: 160px;
-           align-items: center;
-        text-align: center;
-        font-size: 50px;
-          left: 80px;
-        }
-      }
-
-      @include mobile {
-        height: 50%;
-        width: 100%;
-        gap: 20px;
-        align-items: center;
-        text-align: center;
-      }
-
-      h2 {
-        font-size: 30px;
-        color: rebeccapurple;
-        letter-spacing: 10px;
-
-      }
-
-      h1 {
-        font-size: 88px;
-
-        @include mobile {
-          font-size: 36px;
+          @include mobile {
+            font-size: 50px;
+            position: absolute;
+            top: 160px;
+            left: 80px;
+            text-align: center;
+          }
         }
       }
 
       .buttons {
-        cursor: pointer;
-        z-index: 99;
         position: absolute;
         top: 380px;
-
-        
-
-        @include mobile {
-          display: none;
-        }
+        z-index: 99;
 
         .button1 {
           padding: 20px;
-          border: 1px solid rgb(0, 0, 0);
           border-radius: 10px;
-          color: rgb(255, 255, 255);
+          border: 1px solid black;
           background-color: #111132;
-          cursor: pointer;
-          font-weight: 300;
-          z-index: 99;
-          font-size: 20px;
+          color: white;
           font-weight: 600;
+          cursor: pointer;
+          transition: transform 0.3s;
 
-          @include bigscreen {
-            display: flex;
-            transform: translateY(70px);
-            cursor: pointer;
-           }
+          &:hover {
+            transform: scale(1.1);
+          }
 
-          
+          @include mobile {
+            display: none;
+          }
         }
-
-        .button1:hover{
-          scale: 1.2;
-
-          @include bigscreen {
-           scale: 1.1;
-           }
-          
-        }
-    
       }
 
       img {
@@ -158,19 +103,16 @@ transform: translateY(60px);
 
   .slidingTextContainer {
     position: absolute;
-    font-size: 50vh;
-    z-index:00000;
     bottom: -100px;
-    white-space: nowrap;
-    width: 50%;
+    font-size: 50vh;
     font-weight: bold;
+    color: rgba(62, 48, 255, 0.14);
+    white-space: nowrap;
     cursor: default;
-    color: #3e30ff23; /* Blackish gradient */
 
     @include mobile {
-          
-          color: #ffffff6c; /* Blackish gradient */
-
+      font-size: 25vh;
+      color: rgba(255, 255, 255, 0.42);
     }
   }
 
@@ -188,17 +130,13 @@ transform: translateY(60px);
       height: 100%;
 
       .dis {
-        height: 100%;
         width: 100%;
+        height: 100%;
         @include bigscreen {
+          position: absolute;
           height: 105%;
           width: 105%;
-          position: absolute;
-          left: 0px;
-          right: 100px;
-           bottom:0px ;
         }
-        
 
         @include tablet {
           display: none;
@@ -206,64 +144,49 @@ transform: translateY(60px);
       }
 
       .imagehome {
-        background: url(/false2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
         position: absolute;
-        order:1;
-        width: 400px;
-          height: 400px;
         top: 70px;
         right: 450px;
-        display: flex;
-        justify-self: center;
-        animation: profile_anime 5s ease-in-out infinite 1s;
-        box-shadow: inset 0 0 0 15px rgb(128 0 128 / 30%);
-        transform: translateX(-30px);
+        width: 400px;
+        height: 400px;
+        background: url(/false2.jpg) center/cover no-repeat;
+        box-shadow: inset 0 0 0 15px rgba(128, 0, 128, 0.3);
+        animation: profile_anime 5s ease-in-out infinite;
 
         @include mobile {
-          height: 50%;
           width: 100%;
-          top: unset;
+          height: 50%;
+          top: auto;
           bottom: 0;
         }
 
-          @include bigscreen {
-            display: flex;
-            transform: translateY(250px);
-            transform: translateX(-100px);
-            width: 700px;
-            height: 700px;
-            
-
-
-           }
-        
+        @include bigscreen {
+          width: 700px;
+          height: 700px;
+          transform: translate( -100px, 250px);
+        }
       }
     }
   }
-}
 
-@keyframes profile_anime {
-  0% {
-border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; 
- }
-
-  50% {
-    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  @keyframes profile_anime {
+    0% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50% {
+      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+    100% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
   }
 
-  100% {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  }
-}
-
-.scrol1{
-  position: absolute;
-  bottom: 40px;
-  @include bigscreen{
+  .scrol1 {
     position: absolute;
-    bottom: 200px;
+    bottom: 40px;
+
+    @include bigscreen {
+      bottom: 200px;
+    }
   }
 }
