@@ -11,7 +11,7 @@ import CursorTrail from "./components/cursor/CursorTrail";
 import Prelodeho from "./components/Preloader";
 import Hero from "./components/hero/Hero";
 import Lock from "./components/lock/Lock";
-import Romantic from "./components/romantic/romantic";
+import Romantic from "./components/romantic/Romantic";
 
 const App = () => {
   const [unlocked, setUnlocked] = useState(false);
