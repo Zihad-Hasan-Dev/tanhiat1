@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./app.scss";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
@@ -17,21 +17,17 @@ const App = () => {
   const [unlocked, setUnlocked] = useState(false);
   const [showPreloader, setShowPreloader] = useState(false);
 
-  // When unlocked → trigger preloader
-  useEffect(() => {
-    if (unlocked) {
-      setShowPreloader(true);
-      const timer = setTimeout(() => setShowPreloader(false), 2000); // ⏱️ show 2s
-      return () => clearTimeout(timer);
-    }
-  }, [unlocked]);
+  const handleUnlock = () => {
+    setUnlocked(true);
+    setShowPreloader(true);
+    setTimeout(() => setShowPreloader(false), 2000); // show preloader for 2s
+  };
 
-  // Step 1: Lock screen
+  // Always show lock screen first
   if (!unlocked) {
-    return <Lock onSuccess={() => setUnlocked(true)} />;
+    return <Lock onSuccess={handleUnlock} />;
   }
 
-  // Step 2: Preloader
   if (showPreloader) {
     return (
       <AnimatePresence mode="wait">
@@ -40,11 +36,9 @@ const App = () => {
     );
   }
 
-  // Step 3: Main site
   return (
     <div>
       <CursorTrail />
-
       <div className="test1">
         <section id="Homepage">
           <Navbar />
@@ -53,16 +47,14 @@ const App = () => {
           <div className="background-noise"></div>
         </section>
 
-       
-
         <section id="Services">
           <Parallax type="services" />
         </section>
       </div>
 
-       <section>
-          <Romantic/>
-        </section>
+      <section>
+        <Romantic />
+      </section>
 
       <section>
         <Services />
