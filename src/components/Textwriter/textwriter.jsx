@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './textwrite.css';
+import './textwrite.scss';
 
 const Typewriter = ({ phrases, period }) => {
   const [loopNum, setLoopNum] = useState(0);
