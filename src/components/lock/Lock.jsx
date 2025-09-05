@@ -7,14 +7,16 @@ export default function Lock({ onSuccess }) {
   const [pin, setPin] = useState("");
   const [error, setError] = useState("");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (pin === SITE_PIN) {
-      onSuccess(); // ✅ Unlocks the site
-    } else {
-      setError("❌ Incorrect PIN. Try again!");
-    }
-  };
+ const handleSubmit = (e) => {
+  e.preventDefault();
+  const enteredPin = pin.trim(); // remove extra spaces
+  if (enteredPin === SITE_PIN) {
+    onSuccess(); // ✅ Unlocks the site
+  } else {
+    setError("❌ Incorrect PIN. Try again!");
+  }
+};
+
 
   return (
     <div className="lock-screen">
