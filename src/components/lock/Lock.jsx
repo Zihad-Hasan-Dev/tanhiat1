@@ -1,22 +1,29 @@
-// src/components/lock/Lock.jsx
-import { useState } from "react";
-import { SITE_PIN } from "../../config/pin"; // keep only SITE_PIN
+import { useState, useEffect } from "react";
+import Cookies from "js-cookie";
+import { SITE_PIN } from "../../config/pin";
 import "./Lock.scss";
 
 export default function Lock({ onSuccess }) {
   const [pin, setPin] = useState("");
   const [error, setError] = useState("");
 
- const handleSubmit = (e) => {
-  e.preventDefault();
-  const enteredPin = pin.trim(); // remove extra spaces
-  if (enteredPin === SITE_PIN) {
-    onSuccess(); // ✅ Unlocks the site
-  } else {
-    setError("❌ Incorrect PIN. Try again!");
-  }
-};
+  useEffect(() => {
+    const cookiePin = Cookies.get("site-pin");
+    if (cookiePin === SITE_PIN) {
+      onSuccess();
+    }
+  }, [onSuccess]);
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const enteredPin = pin.trim();
+    if (enteredPin === SITE_PIN) {
+      Cookies.set("site-pin", SITE_PIN, { expires: 30 }); // store for 30 days
+      onSuccess();
+    } else {
+      setError("❌ Incorrect PIN. Try again!");
+    }
+  };
 
   return (
     <div className="lock-screen">
