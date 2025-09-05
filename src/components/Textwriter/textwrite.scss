@@ -12,4 +12,9 @@
     z-index: 999;
     font-family: KaushanScript, cursive;
 
+    @include mobile {
+      font-size: 40px;
+    }
+  
+
 }
